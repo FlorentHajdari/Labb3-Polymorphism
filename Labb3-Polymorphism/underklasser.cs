@@ -42,7 +42,7 @@
 
         public Circle() // Konstruktor med radie värde
         {
-            Radius = 6;
+            Radius = 3;
         }
 
         public override double Area() // Override som räknar area för cirkel

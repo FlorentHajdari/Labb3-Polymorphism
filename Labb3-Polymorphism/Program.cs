@@ -15,7 +15,9 @@
             // Loopar igenom alla objektreferenser och anropar Area() för varje objekt
             foreach (var figure in figures)
             {
-                Console.WriteLine($"Arean av {figure.GetType().Name} är: {figure.Area()} areaenheter ");
+                // Skriver ut area resultat för varje objekt
+                // F2 rundar cirklens mängd med decimaler till enbart två decimaler, mer läsbart
+                Console.WriteLine($"Arean av {figure.GetType().Name} är: {figure.Area():F2} areaenheter ");
             }
 
             Console.ReadLine();
